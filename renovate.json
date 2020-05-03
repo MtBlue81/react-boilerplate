@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base",
+    ":automergeMinor"
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["after 3pm and before 10pm on thursday"],
+  "labels": ["renovate"],
+  "lockFileMaintenance": {
+    "enabled": true
+  }
+}
