@@ -1,0 +1,422 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots App Default 1`] = `
+<div
+  className="MainLayout__Main-dptym-0 dgjkZn"
+>
+  <div
+    className="MainLayout__HeaderPane-dptym-1 kmMrTW"
+  >
+    <header
+      className="MainLayout__HeaderWrapper-dptym-2 edRRFV"
+    >
+      <div
+        className="MainLayout__HeaderContents-dptym-3 dfTmAO"
+      >
+        <header
+          className="Header__Wrapper-sc-1rt5dm9-0 jTwpzM"
+        >
+          Boilerplate
+        </header>
+      </div>
+    </header>
+  </div>
+  <div
+    className="MainLayout__BodyPaneWrapper-dptym-4 ewbcKF"
+  >
+    <div
+      className="MainLayout__BodyPane-dptym-5 gEHyTp"
+    >
+      <div
+        className="MainLayout__SidePaneWrapper-dptym-6 cmYvGB"
+      >
+        <div
+          className="Sidebar__Wrapper-sc-2cnea-1 jRsIzg"
+        >
+          <ul
+            className="Sidebar__List-sc-2cnea-2 kdxZYs"
+          >
+            <li>
+              <a
+                aria-current="page"
+                className="Sidebar__StyledNavLink-sc-2cnea-0 hwJyfT active"
+                href="/firstPage"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#45a8f5",
+                    "borderRadius": "4px",
+                  }
+                }
+              >
+                1st Page
+              </a>
+            </li>
+            <li>
+              <a
+                aria-current={null}
+                className="Sidebar__StyledNavLink-sc-2cnea-0 hwJyfT"
+                href="/secondPage"
+                onClick={[Function]}
+              >
+                2nd Page
+              </a>
+            </li>
+            <li>
+              <a
+                aria-current={null}
+                className="Sidebar__StyledNavLink-sc-2cnea-0 hwJyfT"
+                href="/nestedPage"
+                onClick={[Function]}
+              >
+                Nested Page
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="MainLayout__ContentPane-dptym-7 ikvDQZ"
+      >
+        <div
+          className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+        >
+          <h2>
+            1st Page
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots components/Header Default 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "gray",
+    }
+  }
+>
+  <header
+    className="Header__Wrapper-sc-1rt5dm9-0 jTwpzM"
+  >
+    Boilerplate
+  </header>
+</div>
+`;
+
+exports[`Storyshots components/PageContent Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  Test Content
+</div>
+`;
+
+exports[`Storyshots components/Sidebar Default 1`] = `
+<div
+  className="Sidebar__Wrapper-sc-2cnea-1 jRsIzg"
+>
+  <ul
+    className="Sidebar__List-sc-2cnea-2 kdxZYs"
+  >
+    <li>
+      <a
+        aria-current={null}
+        className="Sidebar__StyledNavLink-sc-2cnea-0 hwJyfT"
+        href="/firstPage"
+        onClick={[Function]}
+      >
+        1st Page
+      </a>
+    </li>
+    <li>
+      <a
+        aria-current={null}
+        className="Sidebar__StyledNavLink-sc-2cnea-0 hwJyfT"
+        href="/secondPage"
+        onClick={[Function]}
+      >
+        2nd Page
+      </a>
+    </li>
+    <li>
+      <a
+        aria-current={null}
+        className="Sidebar__StyledNavLink-sc-2cnea-0 hwJyfT"
+        href="/nestedPage"
+        onClick={[Function]}
+      >
+        Nested Page
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots layouts/CenterLayout Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 ieVdUO"
+  style={
+    Object {
+      "backgroundColor": "gray",
+      "height": "100px",
+    }
+  }
+>
+  Centered Content
+</div>
+`;
+
+exports[`Storyshots layouts/MainLayout Default 1`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <div
+    className="MainLayout__Main-dptym-0 dgjkZn"
+  >
+    <div
+      className="MainLayout__HeaderPane-dptym-1 kmMrTW"
+    >
+      <header
+        className="MainLayout__HeaderWrapper-dptym-2 edRRFV"
+      >
+        <div
+          className="MainLayout__HeaderContents-dptym-3 dfTmAO"
+        >
+          <div
+            className="MainLayoutstories__Header-sc-11pwxhi-2 kMeANR"
+          >
+            Header
+          </div>
+        </div>
+      </header>
+    </div>
+    <div
+      className="MainLayout__BodyPaneWrapper-dptym-4 ewbcKF"
+    >
+      <div
+        className="MainLayout__BodyPane-dptym-5 gEHyTp"
+      >
+        <div
+          className="MainLayout__SidePaneWrapper-dptym-6 cmYvGB"
+        >
+          <nav
+            className="MainLayoutstories__Sidebar-sc-11pwxhi-1 krNoxK"
+          >
+            Sidebar
+          </nav>
+        </div>
+        <div
+          className="MainLayout__ContentPane-dptym-7 ikvDQZ"
+        >
+          <div
+            className="MainLayoutstories__Main-sc-11pwxhi-0 OYePC"
+          >
+            Main
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots layouts/MainLayout No Sidebar 1`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <div
+    className="MainLayout__Main-dptym-0 dgjkZn"
+  >
+    <div
+      className="MainLayout__HeaderPane-dptym-1 kmMrTW"
+    >
+      <header
+        className="MainLayout__HeaderWrapper-dptym-2 edRRFV"
+      >
+        <div
+          className="MainLayout__HeaderContents-dptym-3 kHXtci"
+        >
+          <div
+            className="MainLayoutstories__Header-sc-11pwxhi-2 kMeANR"
+          >
+            Sidebar
+          </div>
+        </div>
+      </header>
+    </div>
+    <div
+      className="MainLayout__BodyPaneWrapper-dptym-4 golIFZ"
+    >
+      <div
+        className="MainLayout__BodyPane-dptym-5 gEHyTp"
+      >
+        <div
+          className="MainLayout__ContentPane-dptym-7 jyICbi"
+        >
+          <div
+            className="MainLayoutstories__Main-sc-11pwxhi-0 OYePC"
+          >
+            Main
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots pages/FirstPage Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    1st Page
+  </h2>
+</div>
+`;
+
+exports[`Storyshots pages/NestedPage Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <div>
+    <h2>
+      Nested Page
+    </h2>
+    <a
+      href="//firstPage"
+      onClick={[Function]}
+    >
+      Nested 1st Page Link
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots pages/NestedPage/FirstPage Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    Nested 1st Page
+  </h2>
+</div>
+`;
+
+exports[`Storyshots pages/NestedPage/IndexPage Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <div>
+    <h2>
+      Nested Page
+    </h2>
+    <a
+      href="//firstPage"
+      onClick={[Function]}
+    >
+      Nested 1st Page Link
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots pages/NotFoundPage Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    Not Found
+  </h2>
+</div>
+`;
+
+exports[`Storyshots pages/RootPage 1st Page 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    1st Page
+  </h2>
+</div>
+`;
+
+exports[`Storyshots pages/RootPage 2nd Page 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    2nd Page
+  </h2>
+</div>
+`;
+
+exports[`Storyshots pages/RootPage Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    1st Page
+  </h2>
+</div>
+`;
+
+exports[`Storyshots pages/RootPage Nested 1st Page 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    Nested 1st Page
+  </h2>
+</div>
+`;
+
+exports[`Storyshots pages/RootPage Nested Page 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <div>
+    <h2>
+      Nested Page
+    </h2>
+    <a
+      href="/nestedPage/firstPage"
+      onClick={[Function]}
+    >
+      Nested 1st Page Link
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots pages/RootPage Not found Page 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    Not Found
+  </h2>
+</div>
+`;
+
+exports[`Storyshots pages/SecondPage Default 1`] = `
+<div
+  className="CenterLayout-sc-1ukwcq3-0 PageContent__StyledCenterLayout-sc-16nau0j-0 cZCbQN"
+>
+  <h2>
+    2nd Page
+  </h2>
+</div>
+`;
