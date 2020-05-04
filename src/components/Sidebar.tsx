@@ -9,6 +9,9 @@ import {
   COLOR_BLUE,
 } from 'constants/styles';
 
+const { PUBLIC_URL } = process.env;
+const getAbsolutePath = (key: string) => `${PUBLIC_URL}/${key}`;
+
 const activeStyle = {
   borderRadius: `${GAP_SIZE}px`,
   backgroundColor: COLOR_BLUE,
@@ -40,18 +43,29 @@ const List = styled.ul`
   list-style: none;
 `;
 
+const Links = [
+  {
+    key: 'firstPage',
+    label: '1st Page',
+  },
+  {
+    key: 'secondPage',
+    label: '2nd Page',
+  },
+  {
+    key: 'nestedPage',
+    label: 'Nested Page',
+  },
+];
+
 const Sidebar: React.FC = () => (
   <Wrapper>
     <List>
-      <li>
-        <StyledNavLink to="/firstPage">1st Page</StyledNavLink>
-      </li>
-      <li>
-        <StyledNavLink to="/secondPage">2nd Page</StyledNavLink>
-      </li>
-      <li>
-        <StyledNavLink to="/nestedPage">Nested Page</StyledNavLink>
-      </li>
+      {Links.map(({ key, label }) => (
+        <li key={key}>
+          <StyledNavLink to={getAbsolutePath(key)}>{label}</StyledNavLink>
+        </li>
+      ))}
     </List>
   </Wrapper>
 );
