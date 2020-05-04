@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository is my own boilerplate created by [Create React App](https://github.com/facebook/create-react-app).<br/>
+![CI (lint & test)](https://github.com/MtBlue81/react-boilerplate/workflows/CI%20(lint%20&%20test)/badge.svg)
+
+## Feature
+- use TypeScript
+- use eslint, prettier & stylelint
+- use react-router
+- use storybook & snapshots
+- use styled-components
 
 ## Available Scripts
 
@@ -14,6 +22,10 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
+Runs snapshot test by [storyshots](https://www.npmjs.com/package/@storybook/addon-storyshots). <br/>
+See: https://storybook.js.org/docs/testing/structural-testing/ <br/>
+You can also use `yarn coverage`.
+
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
@@ -26,6 +38,15 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn deploy`
+
+Upload the built app to Github Pages.
+
+### `yarn storybook`
+
+Runs the storybook app.<br/>
+The browser automatically opens and show stories.
 
 ### `yarn eject`
 
